@@ -11,7 +11,7 @@ Screen Presentation: Share your screen to present slides, documents, and other m
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v14 or later)
+- React.js (v14 or later)
 - npm or Yarn
 - A modern web browser (Chrome, Firefox, etc.)
 
@@ -20,8 +20,8 @@ Screen Presentation: Share your screen to present slides, documents, and other m
 ### 1. Clone the Repository
 
 ```bash
- git clone https://github.com/your-username/online-class-platform.git
- cd online-class-platform
+ git clone https://github.com/your-username/online-class.git
+ cd online-class
 
 ```
 
@@ -48,7 +48,7 @@ The application will be available at http://localhost:3000.
 Create a .env file in the root directory and add the following environment variables:
 
 ```bash
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=http://localhost:3000
 REACT_APP_WEBCAM_PERMISSION=true
 
 ```
@@ -80,16 +80,16 @@ If you want to integrate the Online Class Platform into your own project, you ca
 ### 1. Install the Package
 
 ```bash
-npm install online-class-platform
+npm install online-class
 # or
-yarn add online-class-platform
+yarn add online-class
 
 ```
 
 ### 2. Import and Use
 
 ```bash
-import { Whiteboard, VideoCall, ScreenPresentation } from 'online-class-platform';
+import { Whiteboard, VideoCall, ScreenPresentation } from 'online-class';
 
 function App() {
   return (
